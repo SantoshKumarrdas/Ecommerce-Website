@@ -1,0 +1,769 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+  box-sizing: border-box;
+}
+body{
+  flex-direction: row;
+}
+@media( max-width:600px){
+  .body{
+    flex-direction: column;
+  }
+}
+.navbar {
+  height: 70px;
+  width: 100%;
+  background-color: #edd8ce;
+}
+.nav1 {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav1 p {
+  color: rgb(88, 100, 68);
+  font-weight: bolder;
+  padding-top: 15px;
+  font-size: 25px;
+  padding-left: 5px;
+}
+.nav2 {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav2 a p {
+  padding-top: 15px;
+  color: rgb(66, 36, 36);
+}
+.nav2 a {
+  text-decoration: none;
+}
+.nav3 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-icon {
+  height: 40px;
+  width: 40px;
+  background-color: #eecabe;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-input {
+  height: 40px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-select {
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: #eecabe;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.cn1 {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cn2 {
+  height: 600px;
+  width: 30%;
+}
+.cn4 {
+  height: 500px;
+  width: 100%;
+  margin-top: 5px;
+  background-image: url("bride1.jpg");
+  background-size: cover;
+}
+.cn41 {
+  height: 90px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.cn3 {
+  height: 600px;
+  width: 70%;
+  background-color: white;
+}
+.cn5 {
+  height: 295px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#cn71:hover {
+  filter: drop-shadow(0 0 0.75rem brown);
+}
+#cn72:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(230, 13, 13));
+}
+#cn73:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(79, 70, 163));
+}
+.cn412 {
+  height: 50px;
+  width: 150px;
+  background-color: brown;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.cn412:hover {
+  background-color: #a67b5b;
+  color: white;
+  font-weight: bolder;
+  filter: drop-shadow(0 0 0.75rem rgb(192, 44, 44));
+}
+.cn10:hover {
+  background-color: #a67b5b;
+  color: white;
+  font-weight: bolder;
+  filter: drop-shadow(0 0 0.75rem rgb(192, 44, 44));
+}
+.cn11:hover {
+  background-color: #a67b5b;
+  color: white;
+  font-weight: bolder;
+  filter: drop-shadow(0 0 0.75rem rgb(192, 44, 44));
+}
+.cn413 {
+  height: 50px;
+  width: 150px;
+  background-color: brown;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.cn413:hover {
+  background-color: #a67b5b;
+  color: white;
+  font-weight: bolder;
+  filter: drop-shadow(0 0 0.75rem rgb(192, 44, 44));
+}
+.cn412 a {
+  padding-top: 12px;
+}
+.cn413 a {
+  padding-top: 12px;
+}
+.cn6 {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cn7 {
+  height: 280px;
+  width: 320px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  background-size: cover;
+}
+.cn712 a {
+  padding-top: 12px;
+  font-size: 10px;
+}
+#cn71 {
+  background-image: url("cn7.jpg");
+  background-size: cover;
+}
+#cn72 {
+  background-image: url("https://media.istockphoto.com/id/1129334456/photo/designer-beautiful-golden-neck-set-closeup-macro-image-on-red-background.jpg?s=612x612&w=0&k=20&c=pMpWlX4LKBECJ9tmfZK-KFNMWfpx2Di8aydx_7h_rVM=");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#cn73 {
+  background-color: white;
+  background-size: cover;
+}
+.cn10 {
+  height: 300px;
+  width: 300px;
+  background-image: url("pexels-rani-sahu-14826512.jpg");
+  background-size: cover;
+}
+.cn11 {
+  height: 300px;
+  width: 620px;
+  background-image: url("https://media.istockphoto.com/id/1680257816/photo/closeup-shot-of-gold-and-diamond-gemstone-wedding-necklace-with-earing.jpg?s=612x612&w=0&k=20&c=qujCgFulOXRgSEuWiyBGx6xDPZT6_xRyav0eQrip_so=");
+  background-size: cover;
+  margin-left: 5px;
+  margin-right: 1px;
+  padding-right: 10px;
+}
+
+.new {
+  height: 600px;
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  justify-content: space-evenly;
+}
+.new1 {
+  height: 280px;
+  width: 200px;
+  background-size: cover;
+  margin-top: 6px;
+  background-color: #f5dad2;
+  gap: 10%;
+  line-height: 15px;
+}
+.new1:hover {
+  background-color: #f3cec2;
+  filter: drop-shadow(0 0.1rem 0.3rem #f1bead);
+}
+.new1 p {
+  color: rgb(165, 42, 48);
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.new1 a {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 54px;
+  text-decoration: none;
+}
+.new2 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("jw5.jpg");
+  background-size: cover;
+}
+.new3 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("5.jpeg");
+  background-size: cover;
+}
+.new4 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("8.jpeg");
+  background-size: cover;
+}
+.new5 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("9.jpeg");
+  background-size: cover;
+}
+.new6 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("10.jpeg");
+  background-size: cover;
+}
+.new7 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("11.jpeg");
+  background-size: cover;
+}
+.new8 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("12.jpeg");
+  background-size: cover;
+}
+.new9 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("2.jpeg");
+  background-size: cover;
+}
+.new10 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("3.jpeg");
+  background-size: cover;
+}
+.new11 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("4.jpeg");
+  background-size: cover;
+}
+.new12 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("5.jpeg");
+  background-size: cover;
+}
+.new13 {
+  height: 220px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url("6.jpeg");
+  background-size: cover;
+}
+
+/* trending */
+
+.trending {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.trending1 {
+  height: 400px;
+  width: 400px;
+  border: 1px solid grey;
+}
+.trending2 {
+  height: 350px;
+  width: 398px;
+  border-top: 5px;
+  background-size: cover;
+}
+.tren {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: radius 2px red;
+}
+.tren1 {
+  height: 40px;
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 5px;
+  background-color: brown;
+  text-align: center;
+  border-radius: 5px;
+}
+.tren1 p {
+  margin-top: 6px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+}
+.tren2 p {
+  margin-top: 6px;
+  font-weight: bolder;
+  color: color(srgb red green blue);
+}
+.tren2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.tren2 {
+  height: 40px;
+  width: 150px;
+  margin-top: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: brown;
+  border-radius: 5px;
+}
+
+/* scroll */
+
+/* Slideshow container */
+.container1 {
+  width: 100%;
+  height: 620px;
+  border-bottom: 0.2px solid rgb(124, 81, 118);
+}
+.gggg h4 {
+  text-decoration: underline;
+  color: brown;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+}
+.gggg {
+  margin-left: 38%;
+  margin-top: 5px;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 15px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 100%;
+  height: 500px;
+}
+.mySlides img {
+  width: 100%;
+  height: 500px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.mySlides-fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes mySlides-fade {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* overflow */
+
+.overflow {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.overflow1 {
+  height: 450px;
+  width: 50%;
+}
+#overflowdiv1 {
+  background-image: url("https://img.freepik.com/premium-photo/there-is-bouquet-flowers-with-gold-silver-leaves-generative-ai_958078-4504.jpg");
+  background-size: cover;
+}
+#videotag video {
+  display: inline-block;
+  width: 100%;
+}
+#overflowdiv2 {
+  background-color: #fbf6f4;
+}
+.overflowdiv22 {
+  height: 300px;
+  width: 500px;
+  margin-top: 90px;
+  margin-left: 80px;
+}
+.overflowbotton {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(48, 45, 45);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.overflowbotton a {
+  padding-top: 12px;
+}
+.overflowdiv31 {
+  height: 300px;
+  width: 500px;
+  margin-top: 120px;
+  margin-left: 80px;
+}
+.overflowbotton:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+#overflowdiv3 {
+  background-color: #fbf6f4;
+}
+/* Banner */
+.banner {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bannerposter {
+  width: 90%;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwa2f88d7f/homepage/Mia/gwtf-desktopm.jpg");
+  background-size: cover;
+}
+.exp {
+  height: 50px;
+  width: 160px;
+  margin-top: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+.exp a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  margin-left: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.exp:hover {
+  background-color: #a67b5b;
+  filter: drop-shadow(0 0 0.75rem rgb(122, 34, 51));
+}
+/* <!-- New for you --> */
+.newforyou {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+}
+.contact {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b19d96;
+  gap: 2%;
+}
+.whatsapp {
+  height: 200px;
+  width: 400px;
+  padding-left: 50px;
+  padding-top: 30px;
+  border-radius: 5px;
+  background-image: url("what.jpg");
+  background-size: cover;
+}
+.whatsapp:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(122, 34, 51));
+}
+.what {
+  height: 50px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+.what a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.what:hover {
+  background-color: brown;
+  filter: drop-shadow(0 0 0.75rem rgb(122, 34, 51));
+  transition: all ease-in;
+  width: 165px;
+  height: 55px;
+}
+#location {
+  background-image: url("location.jpg");
+  background-size: cover;
+  background-color: #fa3e00;
+}
+#videocall {
+  background-image: url("vd.jpg");
+  background-size: cover;
+}
+/* fottre */
+.footter {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(17, 17, 17);
+}
+.footer1 {
+  height: 100%;
+  width: 30%;
+}
+.footer1 h4 {
+  color: wheat;
+  margin-top: 90px;
+}
+.footer1 p {
+  color: wheat;
+  margin-top: 30px;
+}
+.footer2 {
+  height: 100%;
+  width: 20%;
+}
+.footer2 h4 {
+  color: wheat;
+  margin-left: 12px;
+  margin-top: 90px;
+}
+.footer2 ul li {
+  color: wheat;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: left;
+}
+.footer3 {
+  height: 100%;
+  width: 20%;
+}
+.footer3 h4 {
+  color: wheat;
+  margin-left: 12px;
+  margin-top: 90px;
+}
+.footer3 ul li {
+  color: wheat;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: left;
+}
+.footer4 {
+  height: 100%;
+  width: 20%;
+}
+.footer4 h4 {
+  color: wheat;
+  margin-left: px;
+  margin-top: 90px;
+}
+.footer4 p {
+  color: wheat;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: left;
+}
+
